@@ -124,47 +124,6 @@ const CyberSecurityLMSDashboard = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="bg-primary text-primary-foreground p-4 shadow-md">
-        <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">CyberSec Academy</h1>
-          <nav className="flex space-x-4">
-            <button 
-              className={`px-3 py-2 rounded-md ${activeTab === 'dashboard' ? 'bg-primary-foreground text-primary' : 'hover:bg-primary-foreground/20'}`}
-              onClick={() => setActiveTab('dashboard')}
-            >
-              Dashboard
-            </button>
-            <button 
-              className={`px-3 py-2 rounded-md ${activeTab === 'courses' ? 'bg-primary-foreground text-primary' : 'hover:bg-primary-foreground/20'}`}
-              onClick={() => setActiveTab('courses')}
-            >
-              Courses
-            </button>
-            <button 
-              className={`px-3 py-2 rounded-md ${activeTab === 'labs' ? 'bg-primary-foreground text-primary' : 'hover:bg-primary-foreground/20'}`}
-              onClick={() => setActiveTab('labs')}
-            >
-              Labs
-            </button>
-            <button 
-              className={`px-3 py-2 rounded-md ${activeTab === 'community' ? 'bg-primary-foreground text-primary' : 'hover:bg-primary-foreground/20'}`}
-              onClick={() => setActiveTab('community')}
-            >
-              Community
-            </button>
-          </nav>
-          <div className="flex items-center space-x-4">
-            <div className="relative">
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-accent"></span>
-              </span>
-            </div>
-            <div className="h-8 w-8 rounded-full bg-accent flex items-center justify-center">
-              <span className="text-sm font-medium">JS</span>
-            </div>
-          </div>
-        </div>
-      </header>
+      <h
 
 export default CyberSecurityLMSDashboard;
